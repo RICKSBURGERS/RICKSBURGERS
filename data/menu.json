@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Burger",
+    "description": "Pão artesanal, carne 180g, queijo cheddar, alface e tomate.",
+    "image": "/images/burger-classic.jpg",
+    "alt": "Hambúrguer Clássico da Rick's Burgers",
+    "category": "Hambúrgueres"
+  },
+  {
+    "id": 2,
+    "name": "Batata Frita",
+    "description": "Porção de batatas fritas crocantes com tempero especial.",
+    "image": "/images/fries.jpg",
+    "alt": "Batata Frita da Rick's Burgers",
+    "category": "Acompanhamentos"
+  }
+]

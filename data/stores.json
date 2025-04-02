@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Rick's Burgers - Centro",
+      "address": "Rua XV de Novembro, 123, Centro, São Paulo - SP",
+      "hours": "Seg-Sex: 10h às 22h | Sáb-Dom: 11h às 23h",
+      "services": ["Delivery", "Drive-Thru", "Wi-Fi"],
+      "directions": "https://maps.google.com/?q=Rua+XV+de+Novembro,+123,+Centro,+São+Paulo+-+SP",
+      "city": "São Paulo",
+      "lat": -23.550520,
+      "lng": -46.633308
+    },
+    {
+      "id": 2,
+      "name": "Rick's Burgers - Copacabana",
+      "address": "Av. Atlântica, 456, Copacabana, Rio de Janeiro - RJ",
+      "hours": "Seg-Dom: 11h às 00h",
+      "services": ["Delivery", "Wi-Fi", "Área Externa"],
+      "directions": "https://maps.google.com/?q=Av.+Atlântica,+456,+Copacabana,+Rio+de+Janeiro+-+RJ",
+      "city": "Rio de Janeiro",
+      "lat": -22.970722,
+      "lng": -43.182365
+    },
+    {
+      "id": 3,
+      "name": "Rick's Burgers - Savassi",
+      "address": "Rua Pernambuco, 789, Savassi, Belo Horizonte - MG",
+      "hours": "Seg-Sex: 11h às 21h | Sáb-Dom: 12h às 22h",
+      "services": ["Delivery", "Drive-Thru"],
+      "directions": "https://maps.google.com/?q=Rua+Pernambuco,+789,+Savassi,+Belo+Horizonte+-+MG",
+      "city": "Belo Horizonte",
+      "lat": -19.932071,
+      "lng": -43.933944
+    }
+  ]

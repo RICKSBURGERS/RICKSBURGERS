@@ -1,0 +1,393 @@
+:root {
+  --primary: #355C47;      /* Verde escuro para títulos e destaques */
+  --accent: #F28C38;       /* Laranja para botões e bordas */
+  --secondary: #A68A64;    /* Marrom para subtítulos */
+  --text: #F5F5F5;         /* Branco suave para texto em fundos escuros */
+  --text-dark: #333;       /* Cinza escuro para texto principal */
+  --text-muted: #666;      /* Cinza claro para texto secundário */
+  --hover: #D97A30;        /* Laranja escuro para hover */
+  --shadow: rgba(0, 0, 0, 0.2); /* Sombra do banner */
+  --overlay: rgba(0, 0, 0, 0.5); /* Fundo do modal */
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Fonte padrão para texto */
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif; /* Fonte para títulos */
+}
+
+/* Conteúdo geral */
+.content {
+  margin-top: 80px;
+  background: var(--text);
+}
+
+.slide-content h1 {
+  font-size: 48px;
+  color: var(--primary);
+}
+
+.cta-button {
+  background: var(--accent);
+  color: var(--text);
+}
+
+/* Página de Cardápio */
+.menu-page {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.menu-header {
+  border-bottom: 2px solid var(--accent);
+}
+
+.menu-header h1 {
+  color: var(--primary);
+}
+
+.menu-item {
+  background: var(--text);
+}
+
+.price {
+  color: var(--accent);
+}
+
+/* Página de Lojas */
+.stores-header {
+  border-bottom: 2px solid var(--accent);
+}
+
+.stores-header h1 {
+  color: var(--primary);
+}
+
+.search-button {
+  background: var(--accent);
+}
+
+.store-card {
+  background: var(--text);
+}
+
+.directions-button {
+  background: var(--primary);
+}
+
+.stores-promo {
+  background: var(--primary);
+}
+
+.promo-button {
+  background: var(--accent);
+}
+
+/* Páginas Legais (Cookies, Privacidade, Termos) */
+.cookie-policy,
+.privacy-policy,
+.terms-conditions {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.policy-header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.policy-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.policy-header p {
+  font-size: 16px;
+  color: var(--text-muted);
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.policy-content h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--secondary);
+  margin: 40px 0 20px;
+}
+
+.policy-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.policy-content ul {
+  list-style: disc;
+  padding-left: 30px;
+  margin-bottom: 25px;
+}
+
+.policy-content li {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.policy-content strong {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.policy-content a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.policy-content a:hover {
+  text-decoration: underline;
+  color: var(--hover);
+}
+
+/* Cookie Banner */
+.cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: var(--primary);
+  color: var(--text);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px var(--shadow);
+  z-index: 1000;
+}
+
+.cookie-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cookie-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cookie-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cookie-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-accept {
+  background: var(--accent);
+  color: var(--text);
+  border: none;
+}
+
+.btn-accept:hover {
+  background: var(--hover);
+}
+
+.btn-customize {
+  background: transparent;
+  color: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+.btn-customize:hover {
+  background: var(--accent);
+  color: var(--text);
+}
+
+.btn-reject {
+  background: transparent;
+  color: var(--text);
+  border: 2px solid var(--text);
+}
+
+.btn-reject:hover {
+  background: var(--text);
+  color: var(--primary);
+}
+
+.cookie-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal-content {
+  background: var(--text);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.modal-content h3 {
+  font-size: 20px;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.cookie-option {
+  margin-bottom: 20px;
+}
+
+.cookie-option label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: var(--text-dark);
+}
+
+.cookie-option p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.btn-save {
+  background: var(--accent);
+  color: var(--text);
+  border: none;
+}
+
+.btn-save:hover {
+  background: var(--hover);
+}
+
+.btn-cancel {
+  background: transparent;
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+
+.btn-cancel:hover {
+  background: var(--secondary);
+  color: var(--text);
+}
+
+/* Media Queries Globais */
+@media (max-width: 768px) {
+  .content {
+    margin-top: 60px;
+  }
+
+  .menu-page,
+  .cookie-policy,
+  .privacy-policy,
+  .terms-conditions,
+  .cookie-banner {
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+
+  .slide-content h1,
+  .policy-header h1 {
+    font-size: 36px;
+  }
+
+  .policy-header p {
+    font-size: 14px;
+  }
+
+  .policy-content h2 {
+    font-size: 24px;
+    margin: 30px 0 15px;
+  }
+
+  .policy-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .policy-content ul {
+    padding-left: 20px;
+  }
+
+  .policy-content li {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .cookie-banner {
+    padding: 15px;
+  }
+
+  .cookie-content h2 {
+    font-size: 20px;
+  }
+
+  .cookie-content p {
+    font-size: 14px;
+  }
+
+  .cookie-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .modal-content {
+    padding: 20px;
+  }
+
+  .modal-content h3 {
+    font-size: 18px;
+  }
+
+  .cookie-option label {
+    font-size: 14px;
+  }
+
+  .cookie-option p {
+    font-size: 12px;
+  }
+}
