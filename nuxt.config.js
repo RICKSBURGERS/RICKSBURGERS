@@ -11,8 +11,10 @@ export default defineNuxtConfig({
   icon: {
     serverBundle: 'local',
   },
+  // Ajuste para site estático
+  target: 'static', // Define o Nuxt para gerar um site estático
   nitro: {
-    preset: 'node-server',
+    preset: 'vercel', // Usa o preset otimizado para Vercel
   },
   components: [
     { path: '~/components/global', prefix: '' },
@@ -111,7 +113,7 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.css'],
   compatibilityDate: '2025-03-27',
-  ssr: true,
+  ssr: true, // Ativa SSR para pré-renderizar HTML em um site estático
   hooks: {
     'app:created': (app) => {
       const cookies = useCookies();
