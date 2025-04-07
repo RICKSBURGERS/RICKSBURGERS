@@ -77,7 +77,7 @@ useHead({
   meta: [
     { hid: 'description', name: 'description', content: "Bem-vindo ao RICK'S BURGERS. Hambúrgueres artesanais com atitude!" },
     { name: 'keywords', content: "hambúrguer artesanal, RICK'S BURGERS, promoções" },
-    { hid: 'og:title', property: 'og:title', content: "Início - RICK'S BURGERS" },
+    { hid: 'og:title', property: 'og:title', content: "RICK'S BURGERS" },
     { hid: 'og:description', property: 'og:description', content: "Bem-vindo ao RICK'S BURGERS. Hambúrgueres artesanais com atitude!" },
     { hid: 'og:type', property: 'og:type', content: 'website' },
     { hid: 'og:image', property: 'og:image', content: '/images/burger-hero.jpg' },
