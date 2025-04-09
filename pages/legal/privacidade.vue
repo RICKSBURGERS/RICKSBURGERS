@@ -152,7 +152,7 @@ useHead({
       content: "Leia a Política de Privacidade da Rick's Burgers e saiba como protegemos seus dados pessoais.",
     },
     { name: 'keywords', content: "política de privacidade, Rick's Burgers, dados pessoais, segurança" },
-    { hid: 'og:title', property: 'og:title', content: "Política de Privacidade - Rick's Burgers" },
+    { hid: 'og:title', property: 'og:title', content: "Política de Privacidade - RICK'S BURGERS" },
     {
       hid: 'og:description',
       property: 'og:description',
