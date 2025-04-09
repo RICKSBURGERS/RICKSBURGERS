@@ -144,7 +144,7 @@ const lastUpdated = computed(() => {
 });
 
 useHead({
-  title: "Política de Privacidade - Rick's Burgers",
+  title: "Política de Privacidade - RICK'S BURGERS",
   meta: [
     {
       hid: 'description',
