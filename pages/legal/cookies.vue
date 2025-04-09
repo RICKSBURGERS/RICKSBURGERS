@@ -101,7 +101,7 @@ const lastUpdated = computed(() => {
 });
 
 useHead({
-  title: "Política de Cookies - Rick's Burgers",
+  title: "Política de Cookies - RICK'S BURGERS",
   meta: [
     {
       hid: 'description',
