@@ -77,7 +77,7 @@
  import storesData from '~/data/stores.json';
  
  useHead({
-  title: "Nossas Lojas - Rick's Burgers",
+  title: "Nossas Lojas - RICK'S BURGERS",
   meta: [
   { hid: 'description', name: 'description', content: "Encontre a loja Rick's Burgers mais próxima de você e aproveite o melhor hambúrguer da cidade!" },
   { name: 'keywords', content: 'lojas, Rick\'s Burgers, hambúrguer artesanal' },
