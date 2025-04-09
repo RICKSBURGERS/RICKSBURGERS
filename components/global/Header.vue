@@ -40,12 +40,12 @@
           </li>
           <li>
             <a
-              href="https://delivery.ricksburgers.com.br"
+              href="https://delivery.ricksburgers.com.br/caratinga/pedidos"
               target="_blank"
               rel="noopener noreferrer"
               class="delivery-mobile"
               @click="toggleMenu"
-              aria-label="Pedir Delivery no Rick's Burgers"
+              aria-label="Pedir Delivery no RICK'S BURGERS"
             >
               Pedir Delivery
             </a>
