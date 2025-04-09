@@ -138,7 +138,7 @@ useHead({
         "Leia os Termos e Condições da Rick's Burgers para entender as regras de uso do site, restrições e responsabilidades.",
     },
     { name: 'keywords', content: "termos e condições, Rick's Burgers, uso do site, propriedade intelectual" },
-    { hid: 'og:title', property: 'og:title', content: "Termos e Condições - Rick's Burgers" },
+    { hid: 'og:title', property: 'og:title', content: "Termos e Condições - RICK'S BURGERS" },
     {
       hid: 'og:description',
       property: 'og:description',
