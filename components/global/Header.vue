@@ -47,7 +47,7 @@
               @click="toggleMenu"
               aria-label="Pedir Delivery no RICK'S BURGERS"
             >
-              Pedir Delivery
+              Delivery
             </a>
           </li>
         </ul>
