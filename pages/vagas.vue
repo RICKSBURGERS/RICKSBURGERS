@@ -25,7 +25,7 @@ import jobsData from '~/data/vagas.json';
 const jobs = ref(jobsData.jobs);
 
 useHead({
-  title: "Vagas - Rick's Burgers",
+  title: "Vagas - RICK'S BURGERS",
   meta: [
     {
       hid: 'description',
