@@ -129,7 +129,7 @@ const lastUpdated = computed(() => {
 });
 
 useHead({
-  title: "Termos e Condições - Rick's Burgers",
+  title: "Termos e Condições - RICK'S BURGERS",
   meta: [
     {
       hid: 'description',
