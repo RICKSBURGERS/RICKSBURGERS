@@ -110,7 +110,7 @@ useHead({
         "Saiba como a Rick's Burgers utiliza cookies para melhorar sua experiência no site. Leia nossa Política de Cookies.",
     },
     { name: 'keywords', content: "política de cookies, Rick's Burgers, privacidade, cookies analíticos" },
-    { hid: 'og:title', property: 'og:title', content: "Política de Cookies - Rick's Burgers" },
+    { hid: 'og:title', property: 'og:title', content: "Política de Cookies - RICK'S BURGERS" },
     {
       hid: 'og:description',
       property: 'og:description',
