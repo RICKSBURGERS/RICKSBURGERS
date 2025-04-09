@@ -73,7 +73,7 @@ import { useHead } from '#imports';
 import slidesData from '~/data/slides.json'; // Importação do JSON
 
 useHead({
-  title: "Início - RICK'S BURGERS",
+  title: "RICK'S BURGERS",
   meta: [
     { hid: 'description', name: 'description', content: "Bem-vindo ao RICK'S BURGERS. Hambúrgueres artesanais com atitude!" },
     { name: 'keywords', content: "hambúrguer artesanal, RICK'S BURGERS, promoções" },
