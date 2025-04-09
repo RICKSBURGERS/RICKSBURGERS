@@ -13,14 +13,14 @@
       </nav>
       <div class="header-actions">
         <a
-          href="https://delivery.ricksburgers.com.br"
+          href="https://delivery.ricksburgers.com.br/caratinga/pedidos"
           target="_blank"
           rel="noopener noreferrer"
           class="delivery-button"
           aria-label="Pedir Delivery no Rick's Burgers"
         >
           <Icon name="mdi:cart-outline" size="20" />
-          <span>Pedir Delivery</span>
+          <span>Delivery</span>
         </a>
         <button
           class="menu-toggle"
