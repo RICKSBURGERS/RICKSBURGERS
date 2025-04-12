@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "Burger da Temporada",
+      "image": "/images/burger-new.jpg",
+      "alt": "Novo Burger",
+      "description": "Pão artesanal, carne 200g, queijo brie, rúcula e geleia de pimenta.",
+      "price": "R$ 39,90"
+    },
+    {
+      "id": 2,
+      "name": "Veggie Rick",
+      "image": "/images/burger-veggie.jpg",
+      "alt": "Burger Veggie",
+      "description": "Hambúrguer de grão-de-bico, alface, tomate e maionese vegana.",
+      "price": "R$ 32,90"
+    }
+  ]

@@ -1,0 +1,6 @@
+{
+  "locations": [
+    { "id": 1, "city": "Caratinga", "vacancies": 3 },
+    { "id": 2, "city": "Ipatinga", "vacancies": 2 }
+  ]
+}

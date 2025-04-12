@@ -1,0 +1,18 @@
+[
+    {
+      "image": "/images/promo-combo.jpg",
+      "alt": "Combo Família",
+      "title": "Combo Família",
+      "description": "2 hambúrgueres, 2 batatas fritas e 2 refrigerantes por apenas R$ 59,90!",
+      "ctaText": "Peça Agora",
+      "ctaLink": "/cardapio"
+    },
+    {
+      "image": "/images/promo-lancamento.jpg",
+      "alt": "Novo Lançamento",
+      "title": "Burger da Temporada",
+      "description": "Experimente o novo Burger da Temporada com queijo brie e geleia de pimenta!",
+      "ctaText": "Saiba Mais",
+      "ctaLink": "/lancamentos"
+    }
+  ]
