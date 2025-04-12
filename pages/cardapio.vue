@@ -62,7 +62,7 @@ const filterItems = (category) => {
 
 // Configuração de SEO
 useHead({
-  title: "Cardápio - Rick's Burgers",
+  title: "Cardápio - RICK'S BURGERS",
   meta: [
     {
       hid: 'description',

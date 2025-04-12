@@ -24,7 +24,7 @@ import releasesData from '~/data/lancamentos.json';
 const releases = ref(releasesData);
 
 useHead({
-  title: "Lançamentos - Rick's Burgers",
+  title: "Lançamentos - RICK'S BURGERS",
   meta: [
     {
       hid: 'description',

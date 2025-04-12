@@ -135,7 +135,7 @@ const locations = ref(careersData.locations);
 
 // Configuração de SEO
 useHead({
-  title: "Carreiras - Rick's Burgers",
+  title: "Carreiras - RICK'S BURGERS",
   meta: [
     {
       hid: 'description',
