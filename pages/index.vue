@@ -1,6 +1,7 @@
 <template>
   <main class="content">
     <section class="hero-slider" role="region" aria-label="Carrossel de Destaques">
+      <meta name="facebook-domain-verification" content="mszpzn6sz54z4ms7dba8s4yvimnydn"/>
       <div class="slider">
         <div
           v-for="(slide, index) in slides"
