@@ -1,6 +1,5 @@
 <template>
   <header class="header">
-    <meta name="facebook-domain-verification" content="mszpzn6sz54z4ms7dba8s4yvimnydn" />
     <div class="header-container">
       <NuxtLink to="/" class="logo" title="RICK'S BURGERS Home" aria-label="Página inicial do Rick's Burgers">
         <span class="logo-text">RICK'S BURGERS</span>
